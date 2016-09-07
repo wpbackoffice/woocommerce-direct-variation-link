@@ -1,6 +1,6 @@
 === WooCommerce Direct Variation Link  ===
 Contributors: wpbackoffice
-Tags: woocommerce, product variations, direct link, products, variable products, 
+Tags: woocommerce, product variations, direct link, products, variable products,
 Donate Link: http://wpbackoffice.com/plugins/woocommerce-direct-variation-link/
 Requires at least: 2.3
 Tested up to: 3.81
@@ -14,13 +14,14 @@ Link directly to a specific WooCommerce product variation using get variables (y
 
 Link directly to a specific WooCommerce product variation using get variables - yoursite.com/your-single-product/?size=small&color=blue. This is useful if you want to send an email to customers and send them directly to a specific variation without them having to enter it in themselves.
 
-Usage/Examples: 
+Usage/Examples:
 
 Attach: ‘?[variation_name]=[variation_value]‘ to the end of your product link to have the variations automatically appear on the user’s screen.
 
 * mysite.com/product/happy-ninja/?color=blue
 * mysite.com/product/happy-ninja/?color=blue&size=small (additional variations should be separated by '&')
 * mysite.com/product/happy-ninja/?color=blue+green (where the variation value is "Blue Green" with the space replaced by a '+')
+* mysite.com/product/happy-ninja/?color-type=transparent (where the variation key is "Color Type" with the space replaced by a '-') 
 
 Features:
 
